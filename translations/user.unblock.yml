@@ -12,9 +12,9 @@ errors:
   invalid-user: 'Invalid user name/id "%s"'
   unblocked-user: 'User "%s" is already unblocked'
 examples:
-  - description: 'Unblock specifying the user id'
+  - description: 'Unblock user providing the user id'
     execution: |
       drupal user:unblock 2
-  - description: 'Unblock specifying the user jmolivas'
+  - description: 'Unblock user providing the user johndoe'
     execution: |
-      drupal user:unblock jmolivas
+      drupal user:unblock johndoe
