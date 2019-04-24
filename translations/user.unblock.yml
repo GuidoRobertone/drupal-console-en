@@ -15,6 +15,6 @@ examples:
   - description: 'Unblock user providing the user id'
     execution: |
       drupal user:unblock 2
-  - description: 'Unblock user providing the user johndoe'
+  - description: 'Unblock user providing the user name'
     execution: |
       drupal user:unblock johndoe
