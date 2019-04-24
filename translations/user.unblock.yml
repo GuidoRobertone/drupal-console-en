@@ -8,9 +8,10 @@ questions:
   user: 'Enter User name/id'
 messages:
   unblock-successful: 'User "%s" was unblocked.'
+warnings:
+  unblocked-user: 'User "%s" is already unblocked'
 errors:
   invalid-user: 'Invalid user name/id "%s"'
-  unblocked-user: 'User "%s" is already unblocked'
 examples:
   - description: 'Unblock user providing the user id'
     execution: |
